@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Library</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+         <div class="container">
+             <section class="header">
+             <h1>Library App</h1>
+             <button onclick="toggleForm()">Create a new Book</button>
+             </section>
+             <h2>My Books</h2>
+             <section class="books" id="bookList">
+                 <!-- map books -->
+
+             </section>
+         </div>
+
+         <div class="form" id="bookForm">
+             <input type="text" id="Author" Placeholder="Author"/>
+             <input type="text" id="Title" placeholder="Title"/>
+             <input type="text" id="Pages" placeholder="Pages"/>
+             <div>
+             <p>Already read it</p>
+             <input type="checkbox" id="hasRead" placeholder="Read"/>
+             </div>
+             <button onclick="addBookToLibrary()">Add Book</button>
+         </div>
+        <script src="library.js"></script>
+    </body>
+</html>

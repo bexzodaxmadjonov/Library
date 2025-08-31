@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+}
+
+.container h2 {
+    padding: 1rem;
+}
+
+.header{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    text-align: center;
+}
+
+.header button {
+    cursor: pointer;
+}
+
+.form {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bookCard {
+    padding: 1rem;
+}
+
+.placeholder {
+    padding: 1rem;
+}
+
+.books {
+    display: flex;
+}
+
